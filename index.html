@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <header class="bg-[#DC7BD7] ">
+        <nav class="container mx-auto p-4  relative">
+            <div class="flex item-center justify-between">
+                <div class="logo  flex items-center">
+                    <img src="./assest/images/studycheck-logo.png" class="h-[33px]" alt="">
+                </div>
+                <div>
+                    <ul class="hidden  items-center  text-white pt-2  md:flex ">
+                        <li class="px-6 font-bold"><a href="#">Home</a></li>
+                        <div class="flex relative items-center">
+                               <input type="text" class=" rounded py-3 px-10" placeholder="z.B. BWL studieren">
+                               <div class="absolute right-[10px] text-black">
+                               <a href="#"><i class="text-xl fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <li class="pr-6"><a href="#"><i class="text-xl fa-solid fa-magnifying-glass"></i></a></li>
+                        <li><a href="#"><img class="text-white" height="25px" width="25px"
+                                    src="./assest/images/user.svg" alt=""></a></li>
+                    </ul>
+                    
+                </div>
+                <button
+                id="menu-btn"
+                class="hamburger  md:hidden focus:outline-none"
+              >
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+              </button>
+                  Mobile Menu -->
+             <!-- <div class="md:hidden"> 
+                  <div
+                    id="menu"
+                    class=" flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+                  >
+                    <a href="#">Pricing</a>
+                    <a href="#">Product</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Community</a>
+                  </div>
+                </div> 
+                </div>
+            </div>
+        </nav>
+    </header> --> 
+    <!-- Navbar -->
+    <header class="bg-[#DC7BD7] ">
+    <nav class="relative container mx-auto p-6 ">
+        <!-- Flex container -->
+        <div class="flex items-center justify-between">
+          <!-- Logo -->
+          <div class="pt-2">
+            <img src="./assest/images/studycheck-logo.png" class="h-[33px]" alt="">
+          </div>
+          <!-- Menu Items -->
+          <div class="hidden space-x-6 md:flex text-white">
+            <a href="#" class="hover:text-darkGrayishBlue">Home</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+            <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+          </div>
+          
+  
+          <!-- Hamburger Icon -->
+          <button
+            id="menu-btn"
+            class="block hamburger md:hidden focus:outline-none"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+  
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+          <div
+            id="menu"
+            class="absolute flex-col items-center hidden self-end py-8 mt-6 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          >
+            <a href="#">Pricing</a>
+            <a href="#">Product</a>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Community</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+  
+
+
+
+    <section class="bg-no-repeat bg-cover py-[100PX] "
+        style="background-image: url('./assest/images/photo-1608501078713-8e445a709b39.avif');">
+        <div class="container mx-auto p-6">
+            <div class="flex flex-col  justify-center relative">
+                <h1 class="text-white text-3xl md:text-6xl font-medium text-center">Finde mit 392.578 Bewertungen</h1>
+                <h2 class="text-white text-2xl md:text-4xl  text-center pt-5">Dein Traumstudium auf StudyCheck.de
+                </h2>
+                <div class="flex justify-center mt-10">
+                    <form action="" class="flex w-full md:w-[600px]">
+                        <input class="flex w-full px-5 py-[15px]" type="text" placeholder="z.B. BWL studieren">
+                        <a href="#" class="py-3 px-10 bg-yellow-500"> Suchen</a>
+                    </form>
+                </div>
+                <div class=" header-bottom flex">
+                    <div
+                        class="w-full md:w-[550px] md:ml-[0] xl:w-[800px]  block md:flex  justify-between mt-8 md:mt-[80px]">
+                        <div class="flex items-baseline">
+                            <div><i class="fa-solid fa-graduation-cap text-white lg:text-[35px]"> </i></div>
+                            <div class="text-white text-[18px]  lg:text-[30px] pl-4 font-medium">20.414</div>
+                            <div class="text-white text-[15px] pl-4">Studiengänge</div>
+                        </div>
+                        <div class="flex items-baseline">
+                            <div><i class="fa-sharp fa-solid fa-school-flag text-white lg:text-[35px]"> </i></div>
+                            <div class="text-white text-[18px]  lg:text-[30px] pl-4 font-medium">20.414</div>
+                            <div class="text-white text-[15px] pl-4">Hochschulen
+                            </div>
+                        </div>
+                        <div class="flex items-baseline">
+                            <div><i class="fa-sharp fa-solid fa-star text-white lg:text-[35px] "> </i></div>
+                            <div class="text-white text-[18px] lg:text-[30px] pl-4 font-medium">20.414</div>
+                            <div class="text-white text-[15px] pl-4">Infoprofile
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-img absolute right-0 mt-3 xl:right-[-65px] xl:bottom-[18px]">
+                        <img class="w-[63px] lg:w-[100px] xl:w-[130px]"
+                            src="https://studycheck.designsvalley.info/wp-content/uploads/2022/11/hb_siegel_sc.png"
+                            alt="" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="bg-[#F7F7F9]">
+        <div class="container mx-auto relative p-4">
+            <div class="flex flex-col justify-center pt-10">
+                <h1 class="text-3xl md:text-5xl text-[#205C71] font-medium text-center">Die beliebtesten
+                </h1>
+                <h1 class="text-3xl md:text-5xl text-[#205C71] font-semibold text-center py-5">Studiengänge in Deutschland und
+                    Österreich
+
+                </h1>
+
+            </div>
+            <div class="flex flex-wrap mt-10">
+                <div class=" w-full md:w-[48%]">
+                    <a href="" class="flex items-center bg-white border">
+                        <div class="w-25 h-25"><img src="../assest/images/bwl.jpg" alt=""></div>
+                        <h1 class="text-3xl font-medium text-[#205C71] px-[15px]">1</h1>
+                        <h1 class="text-[15px] md:text-[18px] font-normal text-[#205C71]">Betriebswirtschaftslehre (BWL)
+                        </h1>
+
+                    </a>
+                </div>
+                <div class=" w-full md:w-[48%] lg:mx-4">
+                    <a href="" class="flex items-center bg-white border">
+                        <div class="w-25 h-25"><img src="./assest/images/mathematik.jpg" alt=""></div>
+                        <h1 class="text-3xl font-medium text-[#205C71] px-[15px]">2</h1>
+                        <h1 class="text-[15px] md:text-[18px] font-normal text-[#205C71]"> Mathematik</h1>
+
+                    </a>
+                </div>
+                <div class=" w-full md:w-[48%]">
+                    <a href="" class="flex items-center bg-white border">
+                        <div class="w-25 h-25"><img src="../assest/images/soziale-arbeit.jpg" alt=""></div>
+                        <h1 class="text-3xl font-medium text-[#205C71] px-[15px]">3</h1>
+                        <h1 class="text-[15px] md:text-[18px] font-normal text-[#205C71]"> 2 Soziale Arbeit </h1>
+
+                    </a>
+                </div>
+            </div>
+            <div class="w-full md:w-[800px] m-auto text-center my-10">
+                <p class="text-[18px] text-gray-500 mb-5">Die beliebtesten Studiengänge in Deutschland und Österreich
+                    ermitteln sich aus der Anzahl der Erfahrungsberichte sowie den am häufigsten eingegebenen
+                    Suchbegriffen</p>
+                <a href="#" class="text-[#205C71] font-bold ">Alle Studiengänge anzeigen</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[#EDEDED] py-[90px]">
+        <div class="container mx-auto p-4">
+            <div class="text-4xl font-bold text-center text-[#205C71]"><span class="font-medium">Über</span>
+                StudyCheck.de
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-7">
+                <div class="mt-10">
+                    <h2 class="text-2xl font-medium text-[#205C71] mb-5">Du suchst dein Traumstudium?
+                    </h2>
+                    <p class="text-[15px] md:text-[19px] leading-7 text-[#4a4a4a] font-normal">Dein Studium kann eine
+                        Menge Spaß machen – wenn du dir den richtigen Studiengang aussuchst. Wir haben StudyCheck im
+                        Jahr 2013 gegründet, um mit dir gemeinsam dein Traumstudium zu finden – ob in Präsenz oder als
+                        duales Studium. Denn mit unserem unabhängigen Bewertungsportal bieten wir nicht nur eine der
+                        größten Studiendatenbanken Deutschlands und Österreichs an, sondern auch das Insiderwissen aus
+                        über 340.000 Bewertungen von Studierenden und Absolventen. Auf StudyCheck erfährst du aus erster
+                        Hand, welche Studiengänge angesagt sind und an welcher Hochschule es noch Verbesserungspotenzial
+                        gibt. Du weißt noch nicht so recht, welche Studienrichtung überhaupt die richtige für deine
+                        Interessen ist? Dann informiere dich in unseren Studiengangskategorien über die Inhalte, den
+                        Ablauf und die Voraussetzungen der gefragtesten Studienfächer.
+
+                    </p>
+                </div>
+                <div class="mt-10">
+                    <h2 class="text-2xl font-medium text-[#205C71] mb-5">Du bist bereits Student oder Studentin?
+
+                    </h2>
+                    <p class="text-[15px] md:text-[19px] leading-7 text-[#4a4a4a] font-normal">Dein Studium kann eine
+                        Menge Spaß machen – wenn du dir den richtigen Studiengang aussuchst. Wir haben StudyCheck im
+                        Jahr 2013 gegründet, um mit dir gemeinsam dein Traumstudium zu finden – ob in Präsenz oder als
+                        duales Studium. Denn mit unserem unabhängigen Bewertungsportal bieten wir nicht nur eine der
+                        größten Studiendatenbanken Deutschlands und Österreichs an, sondern auch das Insiderwissen aus
+                        über 340.000 Bewertungen von Studierenden und Absolventen. Auf StudyCheck erfährst du aus erster
+                        Hand, welche Studiengänge angesagt sind und an welcher Hochschule es noch Verbesserungspotenzial
+                        gibt. Du weißt noch nicht so recht, welche Studienrichtung überhaupt die richtige für deine
+                        Interessen ist? Dann informiere dich in unseren Studiengangskategorien über die Inhalte, den
+                        Ablauf und die Voraussetzungen der gefragtesten Studienfächer.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="bg-[#02475E]">
+        <div class="container mx-auto p-4">
+            <div class="block  md:flex my-10">
+                <div class="w-full md:w-1/4 ">
+                    <img src="./assest/images/studycheck-logo.png" height="33px" alt="">
+                    <p class="text-white py-5">Wir wurden ausgezeichnet:
+                    </p>
+                    <img src="./assest/images/hb_siegel_sc.png" class="w-[138px] h-[233px]" alt="">
+                </div>
+                <div class="w-full md:w-1/4 lg:w-1/6 pl-4">
+                    <h3 class="text-white font-bold text-[18px] my-5 ">Über Uns
+                    </h3>
+                    <ul class="text-white text-[17px]">
+                        <li><a href="">Über StudyCheck.de
+
+                            </a></li>
+                        <li><a href="">Karriere</a></li>
+                        <li><a href="">Kontakt</a></li>
+                        <li><a href="">Presse
+
+                            </a></li>
+                        <li><a href="">Code of Conduct</a></li>
+                    </ul>
+                    <h3 class="text-white font-bold text-[18px] my-5">Infos</h3>
+                    <ul class="text-white text-[17px]">
+                        <li><a href="">Über StudyCheck.de</a></li>
+                        <li><a href="">Karriere</a></li>
+                        <li><a href="">Kontakt</a></li>
+
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/4 lg:w-1/6 pl-4">
+                    <h3 class="text-white font-bold text-[18px] my-5">Für Hochschulen
+
+                    </h3>
+                    <ul class="text-white text-[17px]">
+                        <li><a href="">Über StudyCheck.de
+
+                            </a></li>
+                        <li><a href="">Karriere</a></li>
+                        <li><a href="">Kontakt</a></li>
+                        <li><a href="">Presse
+
+                            </a></li>
+                        <li><a href="">Code of Conduct</a></li>
+                        <li><a href="">Karriere</a></li>
+                        <li><a href="">Kontakt</a></li>
+                        <li><a href="">Presse
+
+                            </a></li>
+                    </ul>
+                   
+                </div>
+                <div class="w-full md:w-1/4 lg:w-1/6 pl-4">
+                    <h3 class="text-white font-bold text-[18px] my-5">Für Hochschulen
+
+                    </h3>
+                    <ul class="text-white text-[17px]">
+                        <li><a href="">Mediadaten
+                            
+
+                            </a></li>
+                        <li><a href="">Statistiken</a></li>
+                        <li><a href="">Kontakt</a></li>
+                        
+                    </ul>
+                    <h3 class="text-white font-bold text-[18px] my-5">Für Hochschulen
+
+                    </h3>
+                    <div class="flex gap-2">
+                        <img src="./assest/images/facebook-white.png" alt="">
+                        <img src="./assest/images/instagram-white.png" alt="">
+
+                    </div>
+                    <h3 class="text-white font-bold text-[18px] my-5">Für Hochschulen
+
+                    </h3>
+                    <img src="./assest/images/logo-alumni.png" alt="">
+                </div>
+                <div class=" absolute right-0 hidden lg:block"><img src="./assest/images/studycheck-hero.png" class="h-[432px]" alt="">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script>
+        const btn = document.getElementById('menu-btn')
+const nav = document.getElementById('menu')
+
+btn.addEventListener('click', () => {
+  btn.classList.toggle('open')
+  nav.classList.toggle('flex')
+  nav.classList.toggle('hidden')
+})
+    </script>
+</body>
+
+
+</html>
